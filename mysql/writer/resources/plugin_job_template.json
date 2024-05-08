@@ -1,0 +1,19 @@
+{
+    "name": "mysqlwriter",
+    "parameter": {
+        "username": "",
+        "password": "",
+        "writeMode": "",
+        "column": [],
+        "preSql": [],
+        "connection": {
+                "url": "",
+                "table": {
+                    "db":"",
+                    "name":""
+                }
+         },
+        "batchTimeout": "1s",
+        "batchSize":1000
+    }
+}
